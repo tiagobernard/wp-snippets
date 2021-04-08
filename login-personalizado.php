@@ -1,3 +1,4 @@
+<? //não incluir essa linha
 // Logo customizada na pagina de login (admin)
 // Adicione no arquivo functions.php do tema
 // Personalizar de acordo com o perfil do projeto
@@ -22,3 +23,5 @@ background-color:#fff;
 add_action( 'login_enqueue_scripts', 'cutom_login_logo' );
 add_filter('login_headerurl', create_function('', 'return "https://www.enderecodosite.com.br";'));
 add_filter('login_headertitle', create_function('', 'return "Nome do Site";'));
+
+//não incluir essa linha ?>
