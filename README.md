@@ -1,5 +1,5 @@
 <img src="https://s.w.org/style/images/about/WordPress-logotype-wmark.png" height="100" />
 
-# tricks para WordPress
+# truques para agregar valor no WordPress
 Códigos para serem implementados no Wordpress.
-### Geralmente usados no arquivo function.php do tema.
+### Usar no arquivo function.php do tema filho (*child theme*) ativo ou em um arquivo de *plugin*.
