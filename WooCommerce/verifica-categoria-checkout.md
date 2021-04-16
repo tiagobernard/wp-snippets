@@ -1,5 +1,6 @@
-# verifica se o carrinho contém produtos de uma categoria específica
+## verifica se o carrinho contém produtos de uma categoria específica
 > ### usar no arquivo function.php do tema filho (*child theme*) ativo ou em um arquivo de *plugin*.
+#### :link: [ir para o código](https://github.com/tiagobernard/wp-tricks/blob/main/WooCommerce/verifica-categoria-checkout.php)
 
 Verificar se um categoria de produtos específica está presente no carrinho do cliente no WooCommerce é muito útil se você deseja fazer *upsell* personalizado ou mostrar ao cliente uma mensagem personalizada para uma categoria específica quando estiver no checkut. Outro caso de uso é se você deseja mostrar uma forma de pagamento diferente para uma caegoria específica ou oferecer frete grátis.
 
