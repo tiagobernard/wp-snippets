@@ -1,5 +1,6 @@
-# verifica se o carrinho contém um produto específico por ID
+## verifica se o carrinho contém um produto específico por ID
 > ### usar no arquivo function.php do tema filho (*child theme*) ativo ou em um arquivo de *plugin*.
+#### :link: [ir para o código](https://github.com/tiagobernard/wp-tricks/blob/main/WooCommerce/verifica-produto-id-checkout.php)
 
 Verificar se um produto está presente no carrinho do cliente no WooCommerce é muito útil se você deseja fazer *upsell* personalizado ou mostrar ao cliente uma mensagem personalizada para o produto específico quando estiver no checkut. Outro caso de uso é se você deseja mostrar uma forma de pagamento diferente para um produto específico ou oferecer frete grátis.
 
