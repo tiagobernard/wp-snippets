@@ -10,7 +10,7 @@ function lab82_verifica_categoria_carrinho()
 			break;
 		}
 	}
-	// Se a categoria estiver no carrinho...
+	// Se estiver produto da categoria em questão no carrinho...
 	if ($cat_in_cart) {
 		echo 'CONTEÚDO PERSONALIZADO AQUI';
 	}
