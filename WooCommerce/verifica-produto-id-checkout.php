@@ -5,6 +5,8 @@ function lab82_verifica_produto_carrinho() {
    $product_id = 1493; // ALTERAR PARA O ID DO PRODUTO EM QUESTÃO
    $product_cart_id = WC()->cart->generate_cart_id( $product_id );
    $in_cart = WC()->cart->find_product_in_cart( $product_cart_id );
+   
+   // Se o produto ID "1493" estiver no carrinho...
    if ( $in_cart ) {
       echo 'CONTEÚDO PERSONALIZADO AQUI';
    }
