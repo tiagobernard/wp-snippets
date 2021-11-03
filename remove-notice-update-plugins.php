@@ -9,7 +9,7 @@ function lab82_remove_notice_update( $value ) {
     if ( isset( $value ) && is_object( $value ) ) {
         unset( $value->response[ 'hello.php' ] );
         unset( $value->response[ 'pasta-plugin/arquivo-principal.php' ] );
-        unset( $value->response[ 'pasta-plugin-2/arquivo-principal-2.php']);
+        unset( $value->response[ 'pasta-plugin-2/arquivo-principal.php']);
     }
 
     return $value;
